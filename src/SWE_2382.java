@@ -4,9 +4,10 @@ import java.util.Scanner;
 public class SWE_2382 {
 	static int n, m;
 	static ArrayList<Virus> items = new ArrayList<Virus>();
+	private static Scanner sc;
 	
 	public static void main(String args[]){
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		int t = sc.nextInt();
 		
 		for(int i=0;i<t;i++){

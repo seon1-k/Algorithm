@@ -4,9 +4,10 @@ public class BOJ_14891 {
 	
 	static int[][] arr = new int[4][8];
 	static boolean chain1, chain2, chain3;
+	private static Scanner sc;
 	
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		for(int i=0;i<4;i++) {
 			String input = sc.nextLine();
 			for(int j=0;j<8;j++) {

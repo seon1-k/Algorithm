@@ -4,9 +4,10 @@ public class BOJ_11726 {
 	// BOJ_11726
 
 	static int[] dp = new int[1001];
-
+	private static Scanner sc;
+	
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 
 		int n = sc.nextInt();
 		dp[0] = 1;

@@ -1,9 +1,11 @@
 import java.util.Scanner;
 
 public class BOJ_11727 {
+
+	private static Scanner sc;
 	
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		
 		int[] dp = new int[1001];

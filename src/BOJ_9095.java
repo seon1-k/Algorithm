@@ -4,9 +4,10 @@ public class BOJ_9095 {
 	
 	static int[] dp = new int[12];
 	static int maxInt = 3;
+	private static Scanner sc;
 	
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		
 		int t = sc.nextInt();
 		dp[0] = 1;
