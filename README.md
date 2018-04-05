@@ -3,6 +3,6 @@
 
 src : include java files.
 
-BOJ_XX : Baekjoon Online Judge.
+BOJ : Baekjoon Online Judge.
 
 SWE : SW Expert Academy.
