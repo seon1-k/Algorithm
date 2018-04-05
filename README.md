@@ -1,8 +1,7 @@
 # Algorithm
-알고리즘 문제풀이
 
-src : include java files.
+**src/** : include java files.
 
-BOJ : Baekjoon Online Judge.
+**BOJ** : Baekjoon Online Judge.
 
-SWE : SW Expert Academy.
+**SWE** : SW Expert Academy.
