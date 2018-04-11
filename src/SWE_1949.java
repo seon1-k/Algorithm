@@ -101,14 +101,12 @@ public class SWE_1949 {
 	}
 }
 
-class Point {
-	int x, y;
-	public Point(int x, int y) {
-		this.x = x;
-		this.y = y;
-	}
-	
-	void print() {
-		System.out.println(this.x + ", " + this.y);
-	}
-}
+//class Point {
+//	int x, y;
+//	public Point(int x, int y) {
+//		this.x = x;
+//		this.y = y;
+//	}
+//	
+//	
+//}
