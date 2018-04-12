@@ -8,7 +8,7 @@ public class Point{
 		this.x = x; this.y = y; this.length = l;
 	}
 	void print() {
-		System.out.println(this.x + ", " + this.y);
+		System.out.print("("+this.x + ", " + this.y+") ");
 	}
 	
 	
