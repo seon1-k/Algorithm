@@ -37,7 +37,7 @@ public class SWE_4008 {
 //		System.out.println(results);
 		
 		if(results.size() == n-1) {
-//			System.out.println(results);
+			System.out.println(results);
 			calculate(results);
 			return;
 		}
