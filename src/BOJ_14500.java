@@ -72,7 +72,9 @@ public class BOJ_14500 {
 		int sum = 0;
 		int count = 0;
 		if(y < m-4+1) {
-			for(int i=0;i<4;i++) {
+			sum = map[x][y];
+			count = 1;
+			for(int i=1;i<4;i++) {
 				int nY = y+i;
 				if(!check(x, nY)) break;
 				sum += map[x][nY];
@@ -84,7 +86,9 @@ public class BOJ_14500 {
 		//1-2
 		sum = 0; count = 0;
 		if(x < n-4+1) {
-			for(int i=0;i<4;i++) {
+			sum = map[x][y];
+			count = 1;
+			for(int i=1;i<4;i++) {
 				int nX = x+i;
 				if(!check(nX, y)) break;
 				sum += map[nX][y];
@@ -159,8 +163,8 @@ public class BOJ_14500 {
 	}
 	
 	static void setMax(int x, int y, int[] dx, int[] dy) {
-		int sum = 0, count = 0;
-		for(int i=0;i<4;i++) {
+		int sum = map[x][y], count = 1;
+		for(int i=1;i<4;i++) {
 			int nX = x+dx[i], nY = y+dy[i];
 			if(!check(nX, nY)) break;
 			sum += map[nX][nY];
