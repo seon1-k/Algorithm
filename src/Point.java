@@ -11,6 +11,10 @@ public class Point{
 		System.out.print("("+this.x + ", " + this.y+") ");
 	}
 	
+	void setLength(int l) {
+		this.length = l;
+	}
+	
 	
 	
 	@Override
